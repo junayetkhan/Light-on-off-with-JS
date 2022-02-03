@@ -1,0 +1,28 @@
+*{
+    background-image: url(mohammad-alizade-XgeZu2jBaVI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+   
+}
+#BTN{
+    margin-top: 10px;
+    background: no-repeat;
+}
+#onbtn{
+    height: 50px;
+    width: 80px;
+    font-size: 25px;
+    
+    
+}
+#offbtn{
+    height: 50px;
+    width: 80px;
+    font-size: 25px;
+    
+    
+}
+#lightimage{
+    margin-top: 210px;
+    
+}

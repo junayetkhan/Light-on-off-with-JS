@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light-On_off With JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <center>
+        <div>
+            <img src="lightoff.PNG" height="350px" width="300px" id="lightimage">
+        </div>
+
+        <div id="BTN">
+            <button type="button" id="onbtn" onclick="onlight()">ON</button>
+            <button type="button" id="offbtn" onclick="offlight()">Off</button>
+        </div>
+
+        <script>
+            function onlight(){
+                document.getElementById("lightimage");
+                document.getElementById("lightimage").src = "lighton.PNG";
+                document.getElementById("lightimage").setAttribute("height", "350");
+                document.getElementById("lightimage").setAttribute("width", "300");
+                
+            }
+            function offlight(){
+                document.getElementById("lightimage");
+                document.getElementById("lightimage").src = "lightoff.PNG";
+                document.getElementById("lightimage").setAttribute("height", "350");
+                document.getElementById("lightimage").setAttribute("width", "300");
+                
+            }
+
+        </script>
+    </center>
+</body>
+</html>
